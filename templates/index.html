@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>first page</title>
+</head>
+<body>
+<h1></h1>
+<form action="start" autocomplete="on">
+ <fieldset>
+ <legend>registration</legend>
+  First name:<input type="text" name="fname" maxlength="10" placeholder="First name" required><br>
+  Last name: <input type="text" name="lname" maxlength="10" placeholder="Last name" required><br>
+  E-mail: <input type="email" name="email" autocomplete="off" placeholder="E-mail" required><br>
+  <br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <br><br>
+  Select File:<br>
+  <input type="file" name="files" multiple><br>
+  <br>
+  KIND ENCRYPT:<br>
+  <select name="kind encrypt">
+    <option value="AES">AES</option>
+    <option value="DES">DES</option>
+    <option value="3DES">3DES</option>
+    <option value="KISAR">KISAR</option>
+  </select>
+  <br><br>
+  <input type="submit" value="enter">
+  </fieldset>
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+</body>
+</html>

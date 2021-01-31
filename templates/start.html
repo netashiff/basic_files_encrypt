@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>second page</title>
+</head>
+<body style="background-color:powderblue;">
+<h1></h1>
+<form action= "working" method="post" autocomplete="on" enctype="multipart/form-data">
+ <fieldset>
+ <legend>encrypt</legend>
+ <p style="font-family:verdana;" style="text-align:center;">start</p>
+ first, what you want?<br>
+  <input type="radio" name="ch" value="encrypt" checked>encrypt<br>
+  <input type="radio" name="ch" value="decrypt">decrypt<br>
+  <input type="radio" name="ch" value="analyze" checked>analyze<br><br>
+  Select File:<br>
+  <input type="file" name="files" multiple><br>
+  <br>
+  KIND ENCRYPT:<br>
+  <select name="kind encrypt">
+    <option value="AES">AES</option>
+    <option value="DES">DES</option>
+    <option value="3DES">3DES</option>
+  </select>
+  <br><br>
+  key:<input type="password" name="key" placeholder= "key"><br><br>
+  <input type="submit" value="enter">
+  </fieldset>
+</form>
+
+</body>
+</html>
